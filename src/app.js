@@ -71,6 +71,7 @@ app.get('/weather', (req, res) => {
                 description: response_one.description,
                 current_temp: response_one.current_temp,
                 feels_like: response_one.feels_like,
+                observation_time: response_one.observation_time,
                 location: response.location
 
             })
